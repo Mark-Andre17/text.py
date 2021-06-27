@@ -1,5 +1,5 @@
 import os
-import ntpath
+
 
 path = os.getcwd()
 directory = [f for f in os.listdir(path) if f.endswith('.txt')]
